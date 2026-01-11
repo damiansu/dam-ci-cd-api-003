@@ -7,7 +7,10 @@ import java.util.Map;
 
 @RestController
 public class EstadoControlador {
-
+    @GetMapping("/")
+    public String inicio() {
+        return "Fin de la práctica: CI/CD con GitHub Actions y AWS Elastic Beanstalk";
+    }
     @GetMapping("/api/estado")
     public Map<String, Object> estado() {
         return Map.of(
