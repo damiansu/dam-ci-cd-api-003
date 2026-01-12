@@ -14,7 +14,7 @@ public class EstadoControlador {
     @GetMapping("/api/estado")
     public Map<String, Object> estado() {
         return Map.of(
-                "estado", "OK",
+                "estado", "OK"
 
                 "servicio", "dam-ci-cd-api-001",
                 "mensaje", "API operativa"
