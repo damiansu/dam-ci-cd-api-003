@@ -15,6 +15,7 @@ public class EstadoControlador {
     public Map<String, Object> estado() {
         return Map.of(
                 "estado", "OK",
+
                 "servicio", "dam-ci-cd-api-001",
                 "mensaje", "API operativa"
         );
