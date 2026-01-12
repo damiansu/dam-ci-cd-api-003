@@ -16,6 +16,3 @@ target/
 #Artefactos locales de despliegue
 /deploy/
 /deploy.zip
-
-#Prueba
-/.github/workflows/deploy-eb.yml
